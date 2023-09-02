@@ -10,14 +10,14 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import com.fatec.produto.model.Produto;
 import com.fatec.produto.servico.IProdutoServico;
-
 @SpringBootTest
-class ProdutoApplicationTests {
-	
+class Req02ConsultarCatalogoTest {
+	@Autowired
+	IProdutoServico produtoServico;
 	@Test
-	void contextLoads() {
+	void test() {
+		List<Produto> produtos = produtoServico.consultaCatalogo();
+		assertEquals(1,produtos.size());
 	}
-
-	
 
 }
