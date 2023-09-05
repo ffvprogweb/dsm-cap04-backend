@@ -18,6 +18,9 @@ public class APIProdutoController {
 	Logger logger = LogManager.getLogger(this.getClass());
 	@Autowired
 	IProdutoServico produtoServico;
+	/*
+	 * consulta catalogo retorna um arquivo json de produtos
+	 */
 	@CrossOrigin
 	@GetMapping
 	public ResponseEntity <Object> consultaTodos(){
