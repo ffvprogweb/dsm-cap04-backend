@@ -17,7 +17,7 @@ class Req02ConsultarCatalogoTest {
 	@Test
 	void test() {
 		List<Produto> produtos = produtoServico.consultaCatalogo();
-		assertEquals(1,produtos.size());
+		assertEquals(3,produtos.size());
 	}
 
 }
