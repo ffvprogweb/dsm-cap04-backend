@@ -1,4 +1,4 @@
-package com.fatec.produto;
+package com.fatec.produto.persistencia;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

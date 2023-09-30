@@ -1,5 +1,7 @@
 package com.fatec.produto.model;
 
+import java.util.Objects;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -16,10 +18,10 @@ public class Produto {
 	private int quantidadeNoEstoque;
 
 	public Produto(String descricao, String categoria, double custo, int quantidadeNoEstoque) {
-		this.descricao = descricao;
-		this.categoria = categoria;
-		this.custo = custo;
-		this.quantidadeNoEstoque = quantidadeNoEstoque;
+		setDescricao(descricao);
+		setCategoria(categoria);
+		setCusto(custo);
+		setQuantidadeNoEstoque(quantidadeNoEstoque);
 	}
 
 	public Produto() {
@@ -39,10 +41,15 @@ public class Produto {
 	}
 
 	public void setDescricao(String descricao) {
-		if (descricao == null || descricao.isBlank()) {
+		if (descricao == null) {
 			throw new IllegalArgumentException("A descrição não deve estar em branco");
 		} else {
-			this.descricao = descricao;
+			if (descricao.isBlank() ) {
+				throw new IllegalArgumentException("A descrição não deve estar em branco");
+			}
+			else {
+				this.descricao = descricao;
+			}
 		}
 	}
 
@@ -89,7 +96,26 @@ public class Produto {
 		} catch (Exception e) {
 			throw new IllegalArgumentException("A quantidade deve ser maior que zero");
 		}
-		
+
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(categoria, custo, descricao, quantidadeNoEstoque);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Produto other = (Produto) obj;
+		return Objects.equals(categoria, other.categoria)
+				&& Double.doubleToLongBits(custo) == Double.doubleToLongBits(other.custo)
+				&& Objects.equals(descricao, other.descricao) && quantidadeNoEstoque == other.quantidadeNoEstoque;
 	}
 
 }
