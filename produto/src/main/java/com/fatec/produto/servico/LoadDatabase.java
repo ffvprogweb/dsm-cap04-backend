@@ -18,7 +18,7 @@ import com.fatec.produto.model.IProdutoRepository;
 import com.fatec.produto.model.Imagem;
 import com.fatec.produto.model.Produto;
 
-//@Configuration
+@Configuration
 public class LoadDatabase {
 	Logger logger = LogManager.getLogger(this.getClass());
 	@Autowired

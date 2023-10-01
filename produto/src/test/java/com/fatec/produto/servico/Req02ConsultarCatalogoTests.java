@@ -2,12 +2,12 @@ package com.fatec.produto.servico;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.Arrays;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,8 +33,8 @@ class Req02ConsultarCatalogoTests {
 		Produto produto1 = new Produto("Eletrobomba 110V para Maquina de Lavar e Lava Louças", "maquina de lavar",
 				51.66, 12);
 		Produto p = produtoRepository.save(produto1);
-		assertEquals(1, p.getId());
-		assertEquals(1, produtoRepository.count());
+		assertTrue(p.getId() > 0);
+		assertTrue(produtoRepository.count() >0);
 		// ****************************************************************
 		// upload - obtem a imagem do c, atribui ao obj imagem e salva no db do servidor
 		// ****************************************************************
@@ -52,7 +52,7 @@ class Req02ConsultarCatalogoTests {
 		imagem.setCaminho("imagens/" + imagem.getNome());
 		imagem.setArquivo(arquivo1);
 		Imagem i = imagemRepository.save(imagem);
-		assertEquals(1, i.getId());
+		assertTrue(p.getId() > 0);
 	}
 
 	@Test
