@@ -8,10 +8,11 @@ Time de desenvolvimento
 - Isabel Cristina Leopoldina 
 
 ##### Instalação
-> O projeto foi desenvolvido no STS4 utilizando Java 17. NO Github selecione a opção clone e copie o endereço do repositório.
-> No STS4 abra a perspectiva Git opção clone.
-> Ao terminar o download import o projeto para o workspace
-> A classe ProdutoAppplication inicializa a execução do projeto 
+O projeto esta em desenvolvimento utilizando STS4 e a linguagem Java 17. 
+- No Github selecione a opção clone e copie o endereço do repositório.
+- No STS4 abra a perspectiva Git opção clone.
+- Ao terminar o download import o projeto para o workspace
+- A classe ProdutoAppplication inicializa a execução do projeto 
 
 ##### Estudo de Caso – Sistema Integrado de Gestão
 > No contexto do projeto interdisciplinar o estudo de caso tem como objetivo desenvolver e implantar um Sistema Integrado de Gestão de Vendas e Suprimentos. 
