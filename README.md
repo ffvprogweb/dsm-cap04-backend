@@ -1,6 +1,8 @@
 ### Fatec ZL - Centro Paula Souza
 ##### Curso - Desenvolvimento de Software Multplataforma
-Nome do Projeto
+Nome do Projeto 
+
+O projeto tem como objetivo facilitar a análise das vendas para apoio a tomada de decisão. É possível analisar o histórico das vendas por mês e ano. O relatório do produto mais vendido....
 
 Time de desenvolvimento
 - Joaquim da Silva Xavier
