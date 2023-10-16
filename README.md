@@ -2,17 +2,17 @@
 ##### Curso - Desenvolvimento de Software Multplataforma
 
 ##### Estudo de Caso – _Nome do Projeto_
-> No contexto do projeto interdisciplinar o estudo de caso tem como objetivo desenvolver e implantar o Sistema _nome do projeto_. 
+> No contexto do projeto interdisciplinar o estudo de caso tem como objetivo desenvolver e implantar o Sistema _nome do projeto_. O projeto tem como objetivo facilitar a análise das vendas para apoio a tomada de decisão. É possível analisar o histórico das vendas por mês e ano. O relatório do produto mais vendido.....
+
 Os seguintes requisitos foram identificados na reunião com o cliente (RU – Requisito de Usuário).
 > 
 - Req01: o sistema deve permitir manter os produtos a serem vendidos (cadastrar, alterar, excluir e consultar)
 - Req02: 
 - Req03
-> O resultado da análise conclui que será possível implementar
-o projeto no semestre com grupos de alunos atuando como programadores. O maior risco identificado é a falta de tempo para reunião do time de desenvolvimento e estudo 
-do projeto. O grupo deve definir estratégias para mitigar o risco de dificuldades com a linguagem de programação, identificando membros do grupo com problemas na
-programação, selecionando videoaulas, referência bibliográficas, para melhora a produtividade do time.  
-O projeto tem como objetivo facilitar a análise das vendas para apoio a tomada de decisão. É possível analisar o histórico das vendas por mês e ano. O relatório do produto mais vendido.....
+
+ ##### Análise de risco  
+> O resultado da análise conclui que será possível implementar o projeto no semestre com grupos de alunos atuando como programadores. O maior risco identificado é a falta de tempo para reunião do time de desenvolvimento e estudo 
+do projeto. O grupo deve definir estratégias para mitigar o risco de dificuldades com a linguagem de programação, identificando membros do grupo com problemas na programação, selecionando videoaulas, referência bibliográficas, para melhora a produtividade do time.  
 
 Time de desenvolvimento
 - Joaquim da Silva Xavier
