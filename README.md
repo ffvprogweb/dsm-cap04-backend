@@ -1,7 +1,12 @@
 ### Fatec ZL - Centro Paula Souza
 ##### Curso - Desenvolvimento de Software Multplataforma
-Nome do Projeto 
 
+##### Estudo de Caso – <Nome do Projeto>
+> No contexto do projeto interdisciplinar o estudo de caso tem como objetivo desenvolver e implantar o Sistema **<nome do projeto>**. 
+Os seguintes requisitos foram identificados na primeira reunião com o cliente (RU – Requisito de Usuário). O resultado da análise conclui que será possível implementar
+o projeto no semestre com grupos de alunos atuando como programadores. O maior risco identificado é a falta de tempo para reunião do time de desenvolvimento e estudo 
+do projeto. O grupo deve definir estratégias para mitigar o risco de dificuldades com a linguagem de programação, identificando membros do grupo com problemas na
+programação, selecionando videoaulas, referência bibliográficas, para melhora a produtividade do time.  
 O projeto tem como objetivo facilitar a análise das vendas para apoio a tomada de decisão. É possível analisar o histórico das vendas por mês e ano. O relatório do produto mais vendido.....
 
 Time de desenvolvimento
@@ -16,12 +21,7 @@ O projeto esta em desenvolvimento utilizando STS4 e a linguagem Java 17.
 - Ao terminar o download import o projeto para o workspace
 - A classe ProdutoAppplication inicializa a execução do projeto 
 
-##### Estudo de Caso – Sistema Integrado de Gestão
-> No contexto do projeto interdisciplinar o estudo de caso tem como objetivo desenvolver e implantar um Sistema Integrado de Gestão de Vendas e Suprimentos. 
-Os seguintes requisitos foram identificados na primeira reunião com o cliente (RU – Requisito de Usuário). O resultado da análise conclui que será possível implementar
-o projeto no semestre com grupos de alunos atuando como programadores. O maior risco identificado é a falta de tempo para reunião do time de desenvolvimento e estudo 
-do projeto. O grupo deve definir estratégias para mitigar o risco de dificuldades com a linguagem de programação, identificando membros do grupo com problemas na
-programação, selecionando videoaulas, referência bibliográficas, para melhora a produtividade do time.  
+
 ##### Processo de Desenvolvimento de Software - PDS
 > O PDS segue uma abordagem interativa incremental adaptada do Scrum. A definição de pronto estabelece os mecanismos para 
 > controle de qualidade da aplicação. 
