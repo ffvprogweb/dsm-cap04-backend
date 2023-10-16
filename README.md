@@ -1,4 +1,4 @@
-### Fatec ZL - Centro Paula Souza
+### Fatec - Centro Paula Souza
 ##### Curso - Desenvolvimento de Software Multplataforma
 
 ##### Estudo de Caso – _Nome do Projeto_
