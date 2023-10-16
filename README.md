@@ -2,7 +2,7 @@
 ##### Curso - Desenvolvimento de Software Multplataforma
 
 ##### Estudo de Caso – <Nome do Projeto>
-> No contexto do projeto interdisciplinar o estudo de caso tem como objetivo desenvolver e implantar o Sistema **<nome do projeto>**. 
+> No contexto do projeto interdisciplinar o estudo de caso tem como objetivo desenvolver e implantar o Sistema _<nome do projeto>_. 
 Os seguintes requisitos foram identificados na reunião com o cliente (RU – Requisito de Usuário).
 -Req01
 -Req02
