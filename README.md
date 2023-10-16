@@ -5,9 +5,9 @@ Grupo X
 - Jose Bonifacio
 - Isabel Cristina Leopoldina 
 
-##### Processo de Desenvolvimento de Software - PDS
-> O PDS segue uma abordagem interativa incremental adaptada do Scrum. A definição de pronto estabelece os mecanismos para 
-> controle de qualidade da aplicação. 
+##### Instalação
+> O projeto foi desenvolvido no STS4 utilizando Java 17 
+> No Github selecione a opção 
 
 ##### Estudo de Caso – Sistema Integrado de Gestão
 > No contexto do projeto interdisciplinar o estudo de caso tem como objetivo desenvolver e implantar um Sistema Integrado de Gestão de Vendas e Suprimentos. 
@@ -15,6 +15,11 @@ Os seguintes requisitos foram identificados na primeira reunião com o cliente (
 o projeto no semestre com grupos de alunos atuando como programadores. O maior risco identificado é a falta de tempo para reunião do time de desenvolvimento e estudo 
 do projeto. O grupo deve definir estratégias para mitigar o risco de dificuldades com a linguagem de programação, identificando membros do grupo com problemas na
 programação, selecionando videoaulas, referência bibliográficas, para melhora a produtividade do time.  
+##### Processo de Desenvolvimento de Software - PDS
+> O PDS segue uma abordagem interativa incremental adaptada do Scrum. A definição de pronto estabelece os mecanismos para 
+> controle de qualidade da aplicação. 
+
+
 ##### Product Backlog
 - RU01 - Compras - Registra e acompanha os processos de compras na organização, prevê a entrega programada de pedidos de compra
 - RU02 - Recebimento - Registra, controla e informa sobre a entrada de mercadorias e integra as informações dos dados da nota fiscal de entrada com o estoque 
