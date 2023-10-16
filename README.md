@@ -26,10 +26,13 @@ do projeto. O grupo deve definir estratégias para mitigar o risco de dificuldad
 ##### Product Backlog
 > Cada requisito tem um identificador único de maneira que seja possível rastrear a necessidade do cliente com a implementação do software. 
 
-| Identificador | Descrição | Prioridade |
+| Identificador | Descrição | Complexidade|
 | ------------ | ------------------------------------------------------------------------ | ------| 
 | REQ01 – cadastrar produto | Como – vendedor, Eu quero – cadastrar o produto, De maneira que – seja possível consultar o produto para confirmar sua disponibilidade no estoque| Média |
 | REQ02 – consultar catalogo| Como – caixa, Eu quero – consultar o catalogo de produtos, De maneira que – seja possível consultar o produto para confirmar uma venda| Média |
+| REQ03 – upload de imagem  | Como – vendedor, Eu quero – realizar o upload de imagens, De maneira que – seja possível consultar o produto para confirmar sua disponibilidade no estoque| Alta |
+| REQ04 – atualizar informações do produto | Como – vendedor, Eu quero – atualizar as informações do produto, De maneira que – seja possível consultar o produto com informações atualizadas| Média |
+| REQ05 – excluir informações do produto | Como – vendedor, Eu quero – excluir informações do produto, De maneira que – este produto não fique não disponível para venda| Média |
 | REQ01 – cadastrar cliente | Como – vendedor, Eu quero – cadastrar o cliente, De maneira que – seja possível identificar o cliente e o endereço de entrega para confirmar uma venda| Média |
 | REQ02 – consultar cliente por ID| Como – vendedor, Eu quero – consultar um cliente pelo ID, De maneira que – seja possível obter informações detalhas do cliente | Alta |
 | REQ03 – consultar cliente por CPF | Como – vendedor, Eu quero – consultar um cliente, De maneira que – seja possível obter informações detalhas do cliente | Alta |
