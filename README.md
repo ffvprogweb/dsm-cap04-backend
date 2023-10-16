@@ -1,5 +1,5 @@
 ### Fatec ZL - Centro Paula Souza
-##### Disciplina - Programação Web III
+##### Curso - Desenvolvimento de Software Multplataforma
 Grupo X 
 - Joaquim da Silva Xavier
 - Jose Bonifacio
@@ -9,7 +9,7 @@ Grupo X
 > O projeto foi desenvolvido no STS4 utilizando Java 17. NO Github selecione a opção clone e copie o endereço do repositório.
 > No STS4 abra a perspectiva Git opção clone.
 > Ao terminar o download import o projeto para o workspace
-> A classe  
+> A classe ProdutoAppplication inicializa a execução do projeto 
 
 ##### Estudo de Caso – Sistema Integrado de Gestão
 > No contexto do projeto interdisciplinar o estudo de caso tem como objetivo desenvolver e implantar um Sistema Integrado de Gestão de Vendas e Suprimentos. 
