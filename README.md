@@ -1,7 +1,7 @@
 ### Fatec ZL - Centro Paula Souza
 ##### Curso - Desenvolvimento de Software Multplataforma
-Nome do Projeto
-Time de desenvolvimento
+>Nome do Projeto
+>Time de desenvolvimento
 - Joaquim da Silva Xavier
 - Jose Bonifacio
 - Isabel Cristina Leopoldina 
