@@ -3,17 +3,6 @@
 
 ##### Estudo de Caso – _Nome do Projeto_
 > No contexto do projeto interdisciplinar o estudo de caso tem como objetivo desenvolver e implantar o Sistema _nome do projeto_. O projeto tem como objetivo facilitar a análise das vendas para apoio a tomada de decisão. É possível analisar o histórico das vendas por mês e ano. O relatório do produto mais vendido.....
-
-Os seguintes requisitos foram identificados na reunião com o cliente (RU – Requisitos de Usuário):
-> 
-- RU01: o sistema deve permitir manter os produtos a serem vendidos (cadastrar, alterar, excluir e consultar)
-- RU02: o sistema deve...
-- RU03
-
- ##### Análise de risco  
-> O resultado da análise conclui que será possível implementar o projeto no semestre com grupos de alunos atuando como programadores. O maior risco identificado é a falta de tempo para reunião do time de desenvolvimento e estudo 
-do projeto. O grupo deve definir estratégias para mitigar o risco de dificuldades com a linguagem de programação, identificando membros do grupo com problemas na programação, selecionando videoaulas, referência bibliográficas, para melhora a produtividade do time.  
-
 Time de desenvolvimento
 - Joaquim da Silva Xavier
 - Jose Bonifacio
@@ -30,14 +19,11 @@ O projeto esta em desenvolvimento utilizando STS4 e a linguagem Java 17.
 ##### Processo de Desenvolvimento de Software - PDS
 > O PDS segue uma abordagem interativa incremental adaptada do Scrum. A definição de pronto estabelece os mecanismos para 
 > controle de qualidade da aplicação. 
-
+##### Análise de risco  
+> O resultado da análise conclui que será possível implementar o projeto no semestre com grupos de alunos atuando como programadores. O maior risco identificado é a falta de tempo para reunião do time de desenvolvimento e estudo 
+do projeto. O grupo deve definir estratégias para mitigar o risco de dificuldades com a linguagem de programação, identificando membros do grupo com problemas na programação, selecionando videoaulas, referência bibliográficas, para melhora a produtividade do time.  
 
 ##### Product Backlog
-- RU01 - Compras - Registra e acompanha os processos de compras na organização, prevê a entrega programada de pedidos de compra
-- RU02 - Recebimento - Registra, controla e informa sobre a entrada de mercadorias e integra as informações dos dados da nota fiscal de entrada com o estoque 
-- RU03 - Vendas – Registra e acompanha as vendas mantendo as informações integradas com o controle de estoque. 
-
-##### Sprint Backlog
 > Cada requisito tem um identificador único de maneira que seja possível rastrear a necessidade do cliente com a implementação do software. 
 
 | Identificador | Descrição | Prioridade |
@@ -48,6 +34,9 @@ O projeto esta em desenvolvimento utilizando STS4 e a linguagem Java 17.
 | REQ04 – consultar todos os clientes | Como – vendedor, Eu quero – consultar todos os clientes cadastrado, De maneira que – seja possível obter uma lista de clientes | Baixa |
 | REQ05 – corrigir informações de cliente | Como – vendedor, Eu quero – corrigir as informações do cliente, De maneira que – seja possível manter as informações atualizadas | Baixa |
 | REQ06 – excluir cliente | Como – vendedor, Eu quero – excluir um cliente, De maneira que – seja possível manter informações somente de clientes ativos | Baixa |
+- RU01 - Compras - Registra e acompanha os processos de compras na organização, prevê a entrega programada de pedidos de compra
+- RU02 - Recebimento - Registra, controla e informa sobre a entrada de mercadorias e integra as informações dos dados da nota fiscal de entrada com o estoque 
+- RU03 - Vendas – Registra e acompanha as vendas mantendo as informações integradas com o controle de estoque. 
 
 ##### Definição de pronto
 > O sprint será considerado concluido quando:
