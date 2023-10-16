@@ -28,7 +28,8 @@ do projeto. O grupo deve definir estratégias para mitigar o risco de dificuldad
 
 | Identificador | Descrição | Prioridade |
 | ------------ | ------------------------------------------------------------------------ | ------| 
-| REQ01 – cadastrar produto | Como – vendedor, Eu quero – cadastrar o produto, De maneira que – seja possível consultar o produto para confirmar uma venda| Média |
+| REQ01 – cadastrar produto | Como – vendedor, Eu quero – cadastrar o produto, De maneira que – seja possível consultar o produto para confirmar sua disponibilidade no estoque| Média |
+| REQ02 – consultar catalogo| Como – caixa, Eu quero – consultar o catalogo de produtos, De maneira que – seja possível consultar o produto para confirmar uma venda| Média |
 | REQ01 – cadastrar cliente | Como – vendedor, Eu quero – cadastrar o cliente, De maneira que – seja possível identificar o cliente e o endereço de entrega para confirmar uma venda| Média |
 | REQ02 – consultar cliente por ID| Como – vendedor, Eu quero – consultar um cliente pelo ID, De maneira que – seja possível obter informações detalhas do cliente | Alta |
 | REQ03 – consultar cliente por CPF | Como – vendedor, Eu quero – consultar um cliente, De maneira que – seja possível obter informações detalhas do cliente | Alta |
