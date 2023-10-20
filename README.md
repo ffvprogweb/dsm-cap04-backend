@@ -1,8 +1,7 @@
 ### Fatec - Centro Paula Souza
-##### Curso - Desenvolvimento de Software Multplataforma
 
-##### Estudo de Caso – _Nome do Projeto_
-> No contexto do projeto interdisciplinar o estudo de caso tem como objetivo desenvolver e implantar o Sistema _nome do projeto_. O projeto tem como objetivo facilitar a análise das vendas para apoio a tomada de decisão. É possível analisar o histórico das vendas por mês e ano. O relatório do produto mais vendido......
+##### Estudo de Caso – _SIGVS_
+> O estudo de caso tem como objetivo desenvolver e implantar o Sistema SIGVS. O projeto tem como objetivo facilitar a análise das vendas para apoio a tomada de decisão. É possível analisar o histórico das vendas por mês e ano. O relatório do produto mais vendido......
 
 Time de desenvolvimento
 - Joaquim da Silva Xavier
