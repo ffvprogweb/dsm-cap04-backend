@@ -1,8 +1,7 @@
 ### Fatec - Centro Paula Souza
-##### Curso - Desenvolvimento de Software Multplataforma
 
-##### Estudo de Caso – _Nome do Projeto_
-> No contexto do projeto interdisciplinar o estudo de caso tem como objetivo desenvolver e implantar o Sistema _nome do projeto_. O projeto tem como objetivo facilitar a análise das vendas para apoio a tomada de decisão. É possível analisar o histórico das vendas por mês e ano. O relatório do produto mais vendido......
+##### Estudo de Caso – _SIGVS_
+> O estudo de caso tem como objetivo desenvolver e implantar o Sistema SIGVS. O projeto tem como objetivo facilitar a análise das vendas para apoio a tomada de decisão. É possível analisar o histórico das vendas por mês e ano. O relatório do produto mais vendido......
 
 Time de desenvolvimento
 - Joaquim da Silva Xavier
@@ -71,13 +70,13 @@ A arquitetura segue uma abordagem orientada a serviços. Os serviços foram clas
 - **2. Serviços de entidade (serviços de negócios)**. Derivado de uma ou mais entidades de negócio (domínio), possuindo um alto grau de reutilização. Geralmente são serviços que fazem operações CRUD (Create, Read, Update e Delete). 
 
 - **3. Serviços de tarefa (coordenação de processos-workflow)**. Tipo de serviço mais específico que possui baixo grau de reuso. Consome outros serviços para atender seus consumidores. São serviços que suportam um processo de negócios amplo que geralmente envolve atividades e atores diferentes. Um exemplo de serviço de coordenação em uma empresa é um serviço de pedidos em que os pedidos são feitos, os produtos são aceitos e os pagamentos são efetuados.
-A visão lógica da arquitetura para API de Cliente é apresentada na figura abaixo. A visã lógica descreve como o código está organizado, as classes os pacotes e os relacionamentos entre eles. 
+
+> A visão lógica da arquitetura para API de Cliente é apresentada na figura abaixo. A visã lógica descreve como o código está organizado, as classes os pacotes e os relacionamentos entre eles (Krutchen, 1995). 
 
 
 ![f3_visao_logica](https://user-images.githubusercontent.com/68782201/162488505-5ec27561-eb83-42dc-a05f-27760e5bb7f3.jpg)
 
->A entidade Cliente foi identificada como um serviço (ERL, 2007 - serviço do tipo entidade). A visão lógica da arquitetura (Krutchen, 1995)
->descreve a organização do código. O contrato das operações de sistema (LARMAN, 2006, pag.140) foi definido no diagrama abaixo.
+>A entidade Cliente foi identificada como um serviço (ERL, 2007 - serviço do tipo entidade). O contrato das operações de sistema (LARMAN, 2006, pag.140) foi definido no diagrama abaixo.
 ```mermaid
 classDiagram
     class ClienteServicoI
