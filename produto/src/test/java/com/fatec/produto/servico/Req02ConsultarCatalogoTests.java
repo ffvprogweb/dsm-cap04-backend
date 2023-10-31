@@ -28,13 +28,15 @@ class Req02ConsultarCatalogoTests {
 	@Autowired
 	IProdutoRepository produtoRepository;
 
-	void setup() {
+	@Test
+	void ct01_consultar_catalogo_com_sucesso_por_cod_produto() {
+
 		// dado que o produto e a imagem estao cadastrados
 		Produto produto1 = new Produto("Eletrobomba 110V para Maquina de Lavar e Lava Louças", "maquina de lavar",
 				51.66, 12);
 		Produto p = produtoRepository.save(produto1);
 		assertTrue(p.getId() > 0);
-		assertTrue(produtoRepository.count() >0);
+		assertTrue(produtoRepository.count() > 0);
 		// ****************************************************************
 		// upload - obtem a imagem do c, atribui ao obj imagem e salva no db do servidor
 		// ****************************************************************
@@ -47,20 +49,13 @@ class Req02ConsultarCatalogoTests {
 			System.out.println("Erro no upload de imagem");
 		}
 		Imagem imagem = new Imagem();
-		imagem.setId(1L); // associa o id do produto ao id da imagem
+		imagem.setId(p.getId()); // associa o id do produto ao id da imagem
 		imagem.setNome("produto1.jpg");
 		imagem.setCaminho("imagens/" + imagem.getNome());
 		imagem.setArquivo(arquivo1);
-		Imagem i = imagemRepository.save(imagem);
-		assertTrue(p.getId() > 0);
-	}
-
-	@Test
-	void ct01_consultar_catalogo_com_sucesso_por_cod_produto() {
-		//dado que o usuario entrou com as informações do produto a ser cadastrado
-		setup();
+		imagemRepository.save(imagem);
 		// quando o usuario consulta o produto pelo codigo
-		Catalogo c = produtoServico.consultarPorId("1").get();
+		Catalogo c = produtoServico.consultarPorId(p.getId().toString()).get();
 		// entao retorna os detalhes do produto incluindo a imagem
 		assertNotNull(c);
 		assertEquals("Eletrobomba 110V para Maquina de Lavar e Lava Louças", c.getDescricao());
